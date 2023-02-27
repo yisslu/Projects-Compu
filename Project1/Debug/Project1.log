@@ -1,3 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (PrimerProject.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
-  Main_P1.cpp
-  Project1.vcxproj -> D:\Yisus\Documentos\Semestre_2023-2\Computacion_grafica\LabCompu\PrimerProject\Debug\Project1.exe
