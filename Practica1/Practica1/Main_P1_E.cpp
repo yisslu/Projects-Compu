@@ -56,39 +56,37 @@ int main() {
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	float vertices[] = {
-		//X     Y     Z     R     G    B
-		-0.5f,  0.9f, 0.0f, 0.129f, 0.419f, 0.8666f, //  A Triangulo
-		-0.9f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, //  A1
-		-0.1f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, //  A2
-		-0.5f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, //  A3
-		 0.3f,  -0.2f, 0.0f,0.968f, 0.09412f, 0.3529f, //  B Trapecio
-		 0.7f,  -0.2f, 0.0f,0.968f, 0.09412f, 0.3529f, //  B1
-		 0.9f,  -0.75f, 0.0f,0.968f, 0.09412f, 0.3529f, //  B2
-		 0.1f,  -0.75f, 0.0f,0.968f, 0.09412f, 0.3529f, //  B3
-		-0.1f,  -0.2f, 0.0f,0.3529f, 0.7765f, 0.3216f, //  C Rectangulo
-		-0.1f,  -0.8f, 0.0f,0.3529f, 0.7765f, 0.3216f, //  C1
-		-0.9f,  -0.8f, 0.0f,0.3529f, 0.7765f, 0.3216f, //  C2
-		-0.9f,  -0.2f, 0.0f,0.3529f, 0.7765f, 0.3216f, //  C3
-		0.5f,  0.9f, 0.0f,  1.0f, 1.0f, 0.0f, //  D Pentagono
-		0.2f,  0.6f, 0.0f,  1.0f, 1.0f, 0.0f, //  D1
-		0.35f,  0.2f, 0.0f,  1.0f, 1.0f, 0.0f, //  D2
-		0.65f,  0.2f, 0.0f,  1.0f, 1.0f, 0.0f, //  D3
-		0.8f,  0.6f, 0.0f,  1.0f, 1.0f, 0.0f, //  D4
+		-0.5f,  0.9f, 0.0f, 0.129f, 0.419f, 0.8666f, //Triangulo
+		-0.9f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, 
+		-0.1f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, 
+		-0.5f,  0.2f, 0.0f,  0.129f, 0.419f, 0.8666f, 
+		 0.3f,  -0.2f, 0.0f,0.968f, 0.09412f, 0.3529f, //Trapecio
+		 0.7f,  -0.2f, 0.0f,0.968f, 0.09412f, 0.3529f, 
+		 0.9f,  -0.75f, 0.0f,0.968f, 0.09412f, 0.3529f, 
+		 0.1f,  -0.75f, 0.0f,0.968f, 0.09412f, 0.3529f, 
+		-0.1f,  -0.2f, 0.0f,0.3529f, 0.7765f, 0.3216f, //Rectangulo
+		-0.1f,  -0.8f, 0.0f,0.3529f, 0.7765f, 0.3216f, 
+		-0.9f,  -0.8f, 0.0f,0.3529f, 0.7765f, 0.3216f, 
+		-0.9f,  -0.2f, 0.0f,0.3529f, 0.7765f, 0.3216f, 
+		0.5f,  0.9f, 0.0f,  1.0f, 1.0f, 0.0f, //Pentagono
+		0.2f,  0.6f, 0.0f,  1.0f, 1.0f, 0.0f, 
+		0.35f,  0.2f, 0.0f,  1.0f, 1.0f, 0.0f, 
+		0.65f,  0.2f, 0.0f,  1.0f, 1.0f, 0.0f, 
+		0.8f,  0.6f, 0.0f,  1.0f, 1.0f, 0.0f, 
 	
 	};
 	unsigned int indices[] = {  // note that we start from 0!
-		0,1,3, // Triangle shade
-		0,3,2, // Triangle line
+		0,1,3, // Triangulo
+		0,3,2, 
 
-		5,6,7, // Trap shade
-		4,5,7,  // Trap line
+		5,6,7, // Trapecio
+		4,5,7,  
 
-		9,10,11, // Rect shade
-		8,9,11, // Rect line
+		9,10,11, // Rectangulo
+		8,9,11, 
 
-		12,13,15,  // Hex shade 1
-		12,15,16, // Hex shade 2
-		13,14,15,     // Hex line
+		12,13,16,  // Pentagono
+		13,15,16,     
 	};
 
 	GLuint VBO, VAO,EBO; // Input vertex necesito crear los buffers.
@@ -151,10 +149,10 @@ int main() {
 		glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (GLvoid*)(12 * sizeof(GLfloat)));
 		glDrawElements(GL_LINE_LOOP, 3, GL_UNSIGNED_INT, (GLvoid*)(15 * sizeof(GLfloat))); 
 
-		// Hex
+		// Pen
 		glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (GLvoid*)(18 * sizeof(GLfloat)));
 		glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (GLvoid*)(21 * sizeof(GLfloat))); 
-		glDrawElements(GL_LINE_LOOP, 3, GL_UNSIGNED_INT, (GLvoid*)(24 * sizeof(GLfloat))); 
+		glDrawArrays(GL_LINE_LOOP, 13, 3);
 
 		glBindVertexArray(0);// }
 
