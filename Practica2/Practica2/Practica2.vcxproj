@@ -147,14 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main_PR2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Shaders\core.frag" />
     <None Include="Shaders\core.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="317036833_PRACTICA2_GPO11.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
