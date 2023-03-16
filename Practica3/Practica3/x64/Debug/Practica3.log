@@ -1,4 +1,5 @@
 ﻿  317036833_REPORTE3_GPO11.cpp
+D:\Yisus\Documentos\Semestre_2023-2\Projects-Compu\Practica3\Practica3\317036833_REPORTE3_GPO11.cpp(365,16): warning C4305: '+=': truncamiento de 'double' a 'float'
 317036833_REPORTE3_GPO11.obj : error LNK2019: símbolo externo __imp_glewInit sin resolver al que se hace referencia en la función main
 317036833_REPORTE3_GPO11.obj : error LNK2019: símbolo externo glfwInit sin resolver al que se hace referencia en la función main
 317036833_REPORTE3_GPO11.obj : error LNK2019: símbolo externo glfwTerminate sin resolver al que se hace referencia en la función main
