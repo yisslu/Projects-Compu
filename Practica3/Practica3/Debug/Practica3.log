@@ -1,2 +1,2 @@
-﻿  317036833_PRACTICA3_GPO11.cpp
+﻿LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
   Practica3.vcxproj -> D:\Yisus\Documentos\Semestre_2023-2\Projects-Compu\Practica3\Debug\Practica3.exe

@@ -133,7 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="317036833_PRACTICA3_GPO11.cpp" />
+    <ClCompile Include="317036833_REPORTE3_GPO11.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\core.frag" />
