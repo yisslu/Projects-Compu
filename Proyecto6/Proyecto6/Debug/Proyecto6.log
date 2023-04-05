@@ -1,0 +1,9 @@
+﻿  Main.cpp
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(108,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(200,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(201,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(205,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(206,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(208,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Proyecto6\Main.cpp(209,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Proyecto6.vcxproj -> D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Proyecto6\Debug\Proyecto6.exe
