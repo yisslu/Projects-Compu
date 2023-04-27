@@ -142,7 +142,7 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main - copia.cpp" />
+    <ClCompile Include="317036833_REPORTE6_GPO11.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

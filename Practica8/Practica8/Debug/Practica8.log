@@ -1,0 +1,54 @@
+﻿  iluminacion2.cpp
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(197,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(232,20): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(233,20): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(234,20): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(255,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(256,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(257,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(269,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(270,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(271,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(569,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(570,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(574,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(575,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(577,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Practica8\iluminacion2.cpp(578,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Practica8.vcxproj -> D:\Yisus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Documents\Semestre_2023-2\Projects-Compu\Practica8\Debug\Practica8.exe
