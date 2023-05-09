@@ -105,6 +105,7 @@ int main()
 
     // Load models
     Model bank((char*)"Models/Bank/Bank.obj");
+    Model butterfly((char*)"Butterfly_OBJ2/butterfly_free.obj");
 
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 100.0f);
 
@@ -246,7 +247,7 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
         //glDrawArrays(GL_TRIANGLES, 0, 36);
-        bank.Draw(lightingShader);
+        butterfly.Draw(lightingShader);
 
         glBindVertexArray(0);
 
